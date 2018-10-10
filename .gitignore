@@ -5,3 +5,6 @@ obj/
 tests/*
 !tests/*.c
 !tests/*.h
+
+build
+.vscode

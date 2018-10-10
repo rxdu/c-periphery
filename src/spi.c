@@ -19,7 +19,7 @@
 #include <linux/ioctl.h>
 #include <linux/spi/spidev.h>
 
-#include "spi.h"
+#include "c-periphery/spi.h"
 
 static int _spi_error(struct spi_handle *spi, int code, int c_errno, const char *fmt, ...) {
     va_list ap;

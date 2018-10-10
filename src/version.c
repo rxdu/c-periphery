@@ -4,7 +4,7 @@
  * License: MIT
  */
 
-#include "version.h"
+#include "c-periphery/version.h"
 
 const char *periphery_version(void) {
     #define _STRINGIFY(s) #s

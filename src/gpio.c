@@ -17,7 +17,7 @@
 #include <sys/stat.h>
 #include <errno.h>
 
-#include "gpio.h"
+#include "c-periphery/gpio.h"
 
 #define P_PATH_MAX  256
 /* Delay between checks for successful GPIO export (100ms) */

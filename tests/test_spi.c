@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include "../src/spi.h"
+#include "c-periphery/spi.h"
 
 const char *device;
 

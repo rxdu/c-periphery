@@ -21,7 +21,7 @@
 #include <sys/ioctl.h>
 #include <termios.h>
 
-#include "serial.h"
+#include "c-periphery/serial.h"
 
 static int _serial_error(struct serial_handle *serial, int code, int c_errno, const char *fmt, ...) {
     va_list ap;

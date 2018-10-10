@@ -12,7 +12,7 @@
 #include <time.h>
 #include <unistd.h>
 
-#include "../src/serial.h"
+#include "c-periphery/serial.h"
 
 const char *device;
 

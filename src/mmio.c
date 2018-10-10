@@ -16,7 +16,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#include "mmio.h"
+#include "c-periphery/mmio.h"
 
 static int _mmio_error(struct mmio_handle *mmio, int code, int c_errno, const char *fmt, ...) {
     va_list ap;

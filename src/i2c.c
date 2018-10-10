@@ -20,7 +20,7 @@
 #include <linux/i2c.h>
 #include <linux/i2c-dev.h>
 
-#include "i2c.h"
+#include "c-periphery/i2c.h"
 
 static int _i2c_error(struct i2c_handle *i2c, int code, int c_errno, const char *fmt, ...) {
     va_list ap;
